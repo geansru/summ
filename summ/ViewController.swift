@@ -29,8 +29,6 @@ class ViewController: UIViewController {
         let eps = (e as NSString).doubleValue
         z = 2 + (zString as NSString).doubleValue
         calculate(eps)
-        z = 2 + 0.1
-        calculate(0.0001)
     }
     // MARK: - Lifecycle
     
